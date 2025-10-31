@@ -1,15 +1,18 @@
 <?php
 /*
  * Plugin Name: Steeljaw — TikTok CSV → Woo Orders
+ * Version: 1.2.2
  * Description: Manual importer that converts TikTok Shop CSV exports into WooCommerce orders. Adds a Repair mode and auto-finalizes ShipStation-ready orders.
  * Plugin URI: https://thebeartraxs.com/
  * Author: The Bear Traxs
- * Version: 1.2.1
  * Last Updated: 2025-10-28 (EDT)
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
+
+
+define('BUMBLEBEE_VERSION', '1.2.2');
 /* -----------------------------------------------------------
  *  PATH CONSTANTS
  * ----------------------------------------------------------- */
